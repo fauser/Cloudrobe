@@ -128,7 +128,7 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
-    <Content Include="App_Data\Database.sdf" />
+    <Content Include="config.xml" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -185,6 +185,12 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Images\Shoe_02.jpg" />
+    <Content Include="Thumbs\thmb_Shoe_02.jpg" />
+    <Content Include="Images\Shoe_01.JPG" />
+    <Content Include="Thumbs\thmb_Shoe_01.JPG" />
+    <Content Include="Images\tall.jpeg" />
+    <Content Include="Images\wide.jpeg" />
     <Content Include="Inventory.aspx" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
@@ -199,7 +205,17 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
+    <Content Include="jbcore\classic\fonts\juicebox.svg" />
+    <Content Include="jbcore\classic\img\jb001.png" />
+    <Content Include="jbcore\classic\img\spinner.gif" />
+    <Content Include="jbcore\classic\theme.css" />
+    <Content Include="jbcore\full.html" />
+    <Content Include="jbcore\juicebox.js" />
     <Content Include="packages.config" />
+    <Content Include="jbcore\classic\fonts\juicebox.eot" />
+    <Content Include="jbcore\classic\fonts\juicebox.ttf" />
+    <Content Include="jbcore\classic\fonts\juicebox.woff" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -231,6 +247,8 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Thumbs\tall.jpeg" />
+    <Content Include="Thumbs\wide.jpeg" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
@@ -312,7 +330,9 @@
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />

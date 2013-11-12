@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery	galleryTitle="Juicebox Lite Gallery">
+  <image imageURL="Images/Shoe_01.JPG"
+	thumbURL="Thumbs/thmb_Shoe_01.JPG"
+	linkURL="Images/Shoe_01.JPG"
+	linkTarget="_blank">
+    <title>Welcome to Juicebox!</title>
+  </image>
+
+  <image imageURL="Images/Shoe_02.JPG"
+	thumbURL="Thumbs/thmb_Shoe_02.JPG"
+	linkURL="Images/Shoe_02.JPG"
+	linkTarget="_blank">
+    <title>Welcome to Juicebox!</title>
+  </image>
+
+
+  <!--
+  <image imageURL="Images/tall.jpeg"
+	thumbURL="Thumbs/tall.jpeg"
+	linkURL="Images/tall.jpeg"
+	linkTarget="_blank">
+    <caption><![CDATA[<u><a href="http://www.juicebox.net" target="_blank">Juicebox</a></u> is a free, customizable image gallery. Use it to display your images on any web page in a professional, intuitive and simple way.]]></caption>
+  </image>
+  -->
+</juiceboxgallery>

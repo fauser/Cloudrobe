@@ -6,6 +6,19 @@
         <h2>Your stuff!</h2>
     </hgroup>
 
+
+    <!--START JUICEBOX EMBED-->
+    <script src="jbcore/juicebox.js"></script>
+    <script>
+        new juicebox({
+            containerId: 'juicebox-container'
+        });
+
+		</script>
+    <div id="juicebox-container"></div>
+    <!--END JUICEBOX EMBED-->
+
+
     <canvas id="imageCanvas" width="100" height="400"></canvas>
 
 </asp:Content>
